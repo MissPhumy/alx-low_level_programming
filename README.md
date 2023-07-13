@@ -37,10 +37,4 @@ working in the C programming language. The specific list of projects contained f
 * [0x1D. C - Binary trees](https://github.com/aysuarex/binary_trees/tree/main)
 * [0x1E. C - Search Algorithms](./0x1E-search_algorithms)
 
-
-
-<p align="center">
-  <img src="http://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png"
-    alt="ALX Africa Logo"
-  >
-  </p>                                                         
+                                                  
