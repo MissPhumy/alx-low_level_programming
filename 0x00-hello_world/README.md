@@ -1,7 +1,6 @@
-# C - Hello, World
+# 0x00.C - Hello, World
 
-In this project, I learned about compilation using `gcc`, entry
-points using `main`, and text-printing functions in C.
+In this project: Tasks (0-3) scripts are about the compilation process using `gcc`, Tasks (4-5) are about the ext-printing functions in C, and Tasks(6 & 7) entry points using `main`.
 
 ## Tasks :page_with_curl:
 
