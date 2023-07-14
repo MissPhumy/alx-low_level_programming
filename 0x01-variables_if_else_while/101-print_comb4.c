@@ -6,21 +6,21 @@
 
 int main(void)
 {
-	int a, b, c, d;
+	int i, j, k, l;
 
-	for (a = 0; a < 1000; a++)
+	for (i = 0; i < 1000; i++)
 	{
-		b = a / 100; /* hundreds */
-		c = (a / 10) % 10; /* tens */
-		d = a % 10; /* singles */
+		j = i / 100; /* hundreds */
+		k = (i / 10) % 10; /* tens */
+		l = i % 10; /* singles */
 
-		if (b < c && c < d)
+		if (j < k && k < l)
 		{
-			putchar(b + '0');
-			putchar(c + '0');
-			putchar(d + '0');
+			putchar(j + '0');
+			putchar(k + '0');
+			putchar(l + '0');
 
-			if (d < 700)
+			if (i < 700)
 			{
 				putchar(44);
 				putchar(32);

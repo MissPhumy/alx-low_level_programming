@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char x = 'a';
+	char c = 'a';
 
-	while (x <= 'z')
+	while (c <= 'z')
 	{
-		if (x != 'q' && x != 'e')
+		if (c != 'q' && x != 'e')
 			putchar(x);
 		x++;
 	}

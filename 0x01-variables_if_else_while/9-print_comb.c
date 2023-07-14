@@ -9,17 +9,17 @@
  */
 int main(void)
 {
-	int x = 0;
+	int i = 0;
 
-	while (x < 10)
+	while (i < 10)
 	{
-		putchar(x + '0');
-		if (x < 9)
+		putchar(i + '0');
+		if (i < 9)
 		{
 			putchar(44);
 			putchar(32);
 		}
-		x++;
+		i++;
 	}
 	putchar('\n');
 
