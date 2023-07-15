@@ -3,7 +3,7 @@
  * main - main function
  * x not c variable description
  * use `putchar` to print all letters but the letter 'q' and 'e'.
- * Return: 0 (Success)
+ * Return: 0 (Successfu)
  */
 int main(void)
 {
@@ -11,9 +11,9 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'q' && x != 'e')
-			putchar(x);
-		x++;
+		if (c != 'q' && c != 'e')
+			putchar(c);
+		c++;
 	}
 	putchar('\n');
 

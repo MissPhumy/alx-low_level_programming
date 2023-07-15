@@ -3,10 +3,9 @@
 #include <stdio.h>
 /**
  * main - main function
- * variables (a, b) not (n, m)
  * Return: 0 (Sucessful exercution)
  */
-int main (void)
+int main(void)
 {
 	int n;
 	int m;
