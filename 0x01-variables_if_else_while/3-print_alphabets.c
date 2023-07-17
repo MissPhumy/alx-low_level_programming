@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main function
- * used x not c in variable description
+ * used while loop for lowercase, for loop for uppercase
  * use `putchar` to print lowercase and then uppercase alphabet.
  * Return: 0 (Success)
  */
@@ -17,11 +17,8 @@ int main(void)
 
 	c = 'A';
 
-	while (c <= 'Z')
-	{
+	for (c = 'A'; c <= 'Z'; c++)
 		putchar(c);
-		c++;
-	}
 
 	putchar('\n');
 
