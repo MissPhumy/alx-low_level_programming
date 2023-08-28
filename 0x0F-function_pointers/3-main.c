@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int (*get_op_func(char *s))(int, int);
+
 /**
  * main - Entry point for the calculator program.
  * @argc: The number of command line arguments.
  * @argv: An array containing the command line arguments.
- * Return: Always 0.
+ *
+ * Return: Always 0 on sucess, other value on errors.
  */
 int main(int argc, char *argv[])
 {
@@ -21,7 +24,21 @@ int main(int argc, char *argv[])
 
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
+	
 	func = get_op_func(argv[2]);
+	
+	if (!func)
+	{
+		printf("error\n");
+		return (99);
+	}
+	
+    if ((*argv[2] == '/' || *argv[2] == '%') && b == 0)
+    {
+        printf("Error\n");
+        return (100);
+    }
+
 	result = func(a, b);
 
 	printf("%d\n", result);
