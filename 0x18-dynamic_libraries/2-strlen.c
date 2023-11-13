@@ -2,14 +2,14 @@
 
 /**
  * _strlen - returns the length of a string.
- * @s: input string.
+ * @s: input stringeturn.
  * Return: length of a string.
  */
 int _strlen(char *s)
 {
-	int len_str = 0;
+	int count = 0;
 
-	while (*(s + len_str) != '\0')
-		len_str++;
-	return (len_str);
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }
